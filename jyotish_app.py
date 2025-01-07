@@ -42,7 +42,7 @@ def app():
     st.set_page_config(page_title="Jyotish Bhavishya Software", page_icon="🌟", layout="wide")
     
     # Display Image
-    image_path = "C:\\pythondata\\newenv\\shree ganesh.jpeg"  # Ensure this path is correct
+    image_path = "https://github.com/umesh764/MY-JOTISH-APP/blob/main/shree%20ganesh.jpeg"  # Ensure this path is correct
     img = Image.open(image_path)
     st.image(img, caption="Shree Ganesh", width=150)
     
